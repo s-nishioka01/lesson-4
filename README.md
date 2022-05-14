@@ -6,7 +6,7 @@ Spring Boot + Thymeleaf + MyBatisを用いてCRUD処理（Read処理のみ）を
 ## アプリケーションの内容
 - ハリウッド俳優の名前と年齢を格納したデータベースを用意して、それを年齢の降順で並べ替えてブラウザに表示させるアプリケーションです。
 - 確認していただきたいファイルは次の通りです。
-  ActorController.java, Actor.java, ActorMapper.java, ActorMapper. xml, application.yml
+- （ActorController.java, ActorMapper.java, ActorMapper.xmlに関しては特に不安なので細かく確認していただきたいです...）
 
 ## 構成要件
 Java 17
@@ -38,6 +38,7 @@ MyBatis Spring Boot Starter 2.2.2
 | 6 | Tom Hanks         | 65 |
 
 ## 実行結果
+取得したデータを
 <img width="1129" alt="実行結果スクリーンショット" src="https://user-images.githubusercontent.com/103230014/168340064-cda06c5d-8118-4557-9405-f784330cd830.png">
 
 
