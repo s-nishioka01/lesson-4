@@ -5,7 +5,7 @@ Spring Boot + Thymeleaf + MyBatisを用いてCRUD処理（Read処理のみ）を
 
 ## アプリケーションの内容
 - ハリウッド俳優の名前と年齢を格納したデータベースを用意して、それを年齢の降順で並べ替えてブラウザに表示させるアプリケーション。
-- ActorController.javaでブラウザからリクエストを取得、ActorMapper.javaでActorMapper.xmlに記載されたSQLを呼び出しActorクラスに紐づけてコントローラーに渡す。index.htmlのthymeleafで取得したデータベースをHTMLに渡す。CSSを反映させてブラウザに表示。（この説明文自体正しいことを書けているのかわからないのでご指摘いただけるとありがたいです。）
+- ActorController.javaでブラウザからリクエストを取得、ActorMapper.javaでActorMapper.xmlに記載されたSQLを呼び出しActorクラスに紐づけてコントローラーに渡す。index.htmlのthymeleafで取得したデータベースをHTMLに渡す。CSSを反映させてブラウザに表示。（この説明文自体正しいことを書けているのかわからないのでご指摘いただけるとありがたいです。）  
 （ActorController.java, ActorMapper.java, ActorMapper.xml, index.htmlに関しては特に不安なので細かく確認していただきたいです...）
 
 ## 構成要件
