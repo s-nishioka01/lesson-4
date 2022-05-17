@@ -16,8 +16,7 @@ public class ActorService {
 	}
 
 	public List<Actor> getActorList() {
-		List<Actor> actorList = actorMapper.findAll();
-		return actorList;
+		return actorMapper.findAll();
 	}
 
 }
