@@ -10,8 +10,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class ActorController {
 
+	private ActorMapper actorMapper;
+
 	@Autowired
-	ActorMapper actorMapper;
+	public ActorController(ActorMapper actorMapper) {
+		this.actorMapper = actorMapper;
+	}
 
 	@GetMapping("/index")
 	public String index(Model model) {
